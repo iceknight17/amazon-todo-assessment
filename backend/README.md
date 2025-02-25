@@ -16,7 +16,7 @@ A robust RESTful API backend for a Todo application built with Node.js, Express,
 
 ## Prerequisites
 
-- Node.js (v14 or higher)
+- Node.js (v20.18)
 - npm or yarn
 
 ## Installation
