@@ -26,15 +26,7 @@ A robust RESTful API backend for a Todo application built with Node.js, Express,
    ```bash
    npm install
    ```
-3. Build the project:
-   ```bash
-   npm run build
-   ```
-4. Start the server:
-   ```bash
-   npm start
-   ```
-
+3. Run the project:
 For development:
 ```bash
 npm run dev
@@ -46,10 +38,9 @@ npm run dev
 
 - `POST /api/todos` - Create a new todo
 - `GET /api/todos` - Get all todos
-- `GET /api/todos/:id` - Get a specific todo
 - `PUT /api/todos/:id` - Update a todo
+- `PATCH /api/todos/:id` - Toggle a todo
 - `DELETE /api/todos/:id` - Delete a todo
-- `GET /api/todos/category/:categoryId` - Get todos by category
 
 Query parameters for filtering and sorting:
 - `status`: 'completed' | 'active'
@@ -60,7 +51,6 @@ Query parameters for filtering and sorting:
 
 - `POST /api/categories` - Create a new category
 - `GET /api/categories` - Get all categories
-- `GET /api/categories/:id` - Get a specific category
 - `DELETE /api/categories/:id` - Delete a category
 
 ## Request Examples
@@ -93,21 +83,6 @@ The API returns appropriate HTTP status codes and error messages:
 - 400: Bad Request (validation errors)
 - 404: Not Found
 - 500: Internal Server Error
-
-## Project Structure
-
-```
-src/
-├── controllers/     # Request handlers
-├── database/       # Database configuration and schema
-├── middleware/     # Express middleware
-├── repositories/   # Data access layer
-├── routes/        # API routes
-├── services/      # Business logic
-├── types/         # TypeScript interfaces
-├── utils/         # Utility functions
-└── validators/    # Input validation
-```
 
 ## Development
 

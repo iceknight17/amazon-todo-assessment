@@ -36,24 +36,9 @@ This is a modern Todo application built with React, Redux Toolkit, TypeScript, a
    ```
 4. Open your browser and navigate to the local server URL (usually http://localhost:5173)
 
-## Project Structure
-
-- `/src/components`: React components
-- `/src/store`: Redux store configuration and slices
-- `/src/types`: TypeScript type definitions
-- `/src/App.tsx`: Main application component
-
 ## Available Scripts
 
 - `npm run dev`: Start development server
 - `npm run build`: Build for production
 - `npm run preview`: Preview production build
 - `npm run lint`: Run ESLint
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a new Pull Request
